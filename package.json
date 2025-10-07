@@ -1,0 +1,22 @@
+{
+  "name": "drizzle-orm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "query": "node src/qurery.js",
+    "generate": "drizzle-kit generate:mysql",
+    "migrate": "drizzle-kit push:mysql",
+    "studio": "drizzle-kit studio",
+    "seed": "node src/index.js"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.29.0",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.4"
+  }
+}
