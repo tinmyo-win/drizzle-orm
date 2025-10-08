@@ -8,8 +8,8 @@ export default defineConfig({
   dbCredentials: {
     host: 'localhost',
     port: 3306,
-    user: 'root',
-    password: 'password',
+    user: 'admin',
+    password: 'admin',
     database: 'drizzle_db',
   },
 });

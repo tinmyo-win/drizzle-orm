@@ -14,9 +14,13 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.29.0",
+    "drizzle-seed": "^0.3.1",
     "mysql2": "^3.6.5"
   },
   "devDependencies": {
     "drizzle-kit": "^0.20.4"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }
